@@ -163,6 +163,8 @@ body {
 .hero .content h1 {
   font-size: 4rem;
   color: var(--text);
+  display: inline-block;
+  overflow: hidden;
 }
 .hero .content h1 span {
   color: var(--primary);
@@ -189,7 +191,8 @@ body {
   width: 100%;
   border-left: 2px solid var(--primary);
   animation: typing 1.5s steps(10) infinite;
-  background-color: rgb(245, 245, 245);
+  /* background-color: rgb(245, 245, 245); */
+  background-color: red;
 }
 
 @keyframes typing {
@@ -795,6 +798,7 @@ body {
     height: 100vh;
     background-color: var(--primary);
     transition: 0.6s;
+    z-index: 888;
   }
 
   .navbar .navbar-nav a {
