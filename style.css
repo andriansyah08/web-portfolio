@@ -191,8 +191,7 @@ body {
   width: 100%;
   border-left: 2px solid var(--primary);
   animation: typing 1.5s steps(10) infinite;
-  /* background-color: rgb(245, 245, 245); */
-  background-color: red;
+  background-color: rgb(245, 245, 245);
 }
 
 @keyframes typing {
